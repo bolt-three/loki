@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/colus');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Colus';
+    src: url('https://fonts.cdnfonts.com/css/colus') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
